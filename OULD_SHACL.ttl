@@ -1,11 +1,9 @@
-@prefix oush: <http://www.semanticweb.org/albrechtvaatz/ontologies/2024/OULD/shape#> .
-@prefix ould: <http://www.semanticweb.org/albrechtvaatz/ontologies/2024/OULD#> .
-@prefix occp: <http://www.semanticweb.org/albrechtvaatz/ontologies/2022/9/cMod_V0.1#> .
+@prefix oush: <http://www.semanticweb.org/DigitalizeMe/ontologies/2024/OULD/shape#> .
+@prefix ould: <http://www.semanticweb.org/DigitalizeMe/ontologies/2024/OULD#> .
+@prefix occp: <http://www.semanticweb.org/DigitalizeMe/ontologies/2022/9/cMod_V0.1#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-@base <http://www.semanticweb.org/albrechtvaatz/ontologies/2024/OULD#> .
 
 
 #################################################################
