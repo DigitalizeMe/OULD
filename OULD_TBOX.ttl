@@ -1,6 +1,6 @@
-@prefix occp: <http://www.semanticweb.org/albrechtvaatz/ontologies/2022/9/cMod_V0.1#> .
-@prefix ould: <http://www.semanticweb.org/albrechtvaatz/ontologies/2024/OULD#> .
-@prefix oush: <http://www.semanticweb.org/albrechtvaatz/ontologies/2024/OULD/shape#> .
+@prefix occp: <http://www.semanticweb.org/DigitalizeMe/ontologies/2022/9/cMod_V0.1#> .
+@prefix ould: <http://www.semanticweb.org/DigitalizeMe/ontologies/2024/OULD#> .
+@prefix oush: <http://www.semanticweb.org/DigitalizeMe/ontologies/2024/OULD/shape#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -8,12 +8,10 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@base <http://www.semanticweb.org/albrechtvaatz/ontologies/2024/OULD#> .
-
-<http://www.semanticweb.org/albrechtvaatz/ontologies/2024/OULD> rdf:type owl:Ontology ;
-                                                                        owl:imports <http://www.w3.org/2006/time#2016> ;
-                                                                        owl:imports <http://www.semanticweb.org/albrechtvaatz/ontologies/2022/9/cMod_V0.1#> ;
-                                                                        rdfs:comment "First workaround to implement OCCP-based updates and version control features."@en .
+<http://www.semanticweb.org/DigitalizeMe/ontologies/2024/OULD> rdf:type owl:Ontology ;
+								owl:imports <http://www.w3.org/2006/time#2016> ;
+								owl:imports <http://www.semanticweb.org/DigitalizeMe/ontologies/2022/9/cMod_V0.1#> ;
+								rdfs:comment "First workaround to implement OCCP-based updates and version control features."@en .
 
 #################################################################
 #    Object Properties
